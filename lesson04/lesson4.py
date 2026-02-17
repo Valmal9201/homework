@@ -8,4 +8,3 @@ while (count < 3):
 
 cans = math.ceil(fence/12)
 print (f"{fence}\n{(cans * 12 - fence) % 12}\n{cans * 14.90}")
-
