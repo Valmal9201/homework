@@ -15,4 +15,5 @@ for i in cookie:
         profit += 1.25
     else:
         print(f"{i} is not a valid item.")
+
 print(f"Cookies sold: {totalCookies}\nProfit: ${profit}\nFinal Amount: ${profit + money}")
