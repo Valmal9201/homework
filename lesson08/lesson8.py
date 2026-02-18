@@ -9,6 +9,7 @@ for i in range(6):
         result = input("Try again. Enter the result of the game (W = Win, L = Lose): ")
     game += result    
     i += 1
+    
 wins = game.count("W")
 
 if (wins >= 5):
